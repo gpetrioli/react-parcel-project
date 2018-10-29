@@ -12,13 +12,13 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <>
         {/* dummy routing to showcase a valid setup */}
         <Router>
           <DummyComponent path="/" />
           <DummyComponent path="/path/:parameter" />
         </Router>
-      </div>
+      </>
     );
   }
 }
